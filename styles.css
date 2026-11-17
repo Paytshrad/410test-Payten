@@ -1,69 +1,86 @@
-@charset "utf-8";
-/*
-   Sample start files #2 is a 2-column fixed layout provided in CMIS 410
-   For educational purposes only
-  Name:
-	Date:
-*/
+<link rel="stylesheet" href="styles.css">
+*/ General styles */
 
-*	{ padding: 0; 
-		margin: 0;
+body {
+	background-color: #d6c39e;
+	color: #243b30;
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+#wrapper {
+	width: 90%;
+	max-width: 900px;
+	margin: 20px auto;
+	background-color: #fffaf0;
+}
+
+header {
+	text-align: center;
+	padding: 20px;
+}
+
+nav {
+	background-color: #243b30;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	line-height: 2;
+}
+
+nav a {
+	color: white;
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding: 25px;
+	line-height: 1.6;
+}
+
+.cake {
+	display: block;
+	width: 400px;
+	max-width: 100%;
+	height: auto;
+	margin: 20px auto;
+}
+
+footer {
+	background-color: #243b30;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+footer a {
+	color: white;
+}
+
+header {
+	padding: 0;
+	text-align: center;
+}
+
+header img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+header p {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+header a {
+	text-decoration: none;
+	color: inherit;
 }
 
 
-body { font-size: 1.1em; 
-		font-family: Arial, Helvetica, sans-serif; 
-		background-color: gray;
-}
-
-
-#container { width: 930px; 
-				border-width: 1px; 
-				margin: 0 auto; 
-				background-color: #2196f3;
-}
-
-
-#header { width: 910px; 
-			margin: 0 0 10px 0; 
-			padding: 10px; 
-			background-color: #2196f3; 
-			height: 220px;
-}
-
-#header img {
-	padding-left: 170px;
-}
-
-#navbar { width: 910px; 
-			margin: 0 0 10px 0; 
-			padding: 10px; 
-			background-color: silver; 
-			height: 25px;
-}
-
-
-#sidebar { width: 200px; 
-			margin: 0 10px 10px 0; 
-			padding: 10px; 
-			background-color: #00f3ff; 
-			float: left; 
-			height: 400px;
-}
-
-
-#main { width: 680px; 
-		margin: 0 0 10px 0; 
-		padding: 10px; 
-		background-color: #9bdce2;
-		float: right; 
-		height: 400px;
-}
-
-
-#footer { width: 910px; 
-			padding: 10px; 
-			background-color: #2196f3;; 
-			clear: both; 
-			height: 75px;
-}
